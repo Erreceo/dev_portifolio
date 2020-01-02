@@ -1,14 +1,14 @@
 import React from "react";
 import {Row, Col, Card} from 'react-materialize'
 
-// import avatar from '../../images/avatar.psg'
+import avatar from '../../images/avatar.png'
 
 
 const UserProfile = () => (
     <Card>
         <Row>
             <Col s={8} m={8} offset={"s2 m2"}>
-                <img src={""}  className="circle responsive-img"/>
+                <img src={avatar}  className="circle responsive-img"/>
             </Col>
         </Row>
         <Row className="center-align">

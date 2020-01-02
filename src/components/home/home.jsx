@@ -2,6 +2,8 @@ import React from "react";
 import {Row, Col, Card} from 'react-materialize'
 import UserProfile from "../user_profile/user_profiles";
 import Experience from "../experience/experience";
+import company1 from '../../images/company.png'
+import company2 from '../../images/company2.png'
 
 const Home = () => (
     <Row>
@@ -23,11 +25,11 @@ const Home = () => (
             <Experience title={"Ruby Developer"}
             company={"SoundCloud"}
             description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."}
-            avatar={""}/>
+            avatar={company1}/>
             <Experience title={"React Developer"}
                         company={"Twitter"}
                         description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."}
-                        avatar={""}/>
+                        avatar={company2}/>
         </Col>
     </Row>
 )
